@@ -1,6 +1,6 @@
 # Offline Speech-to-Text Data Pipeline
 
-## Project Overview
+##  Project Overview
 An automated, offline audio transcription pipeline built in Python. This tool processes 16-bit PCM WAV files and extracts raw phonetic transcriptions utilizing the Google Web Speech API. 
 
 This project focuses on the practical application of digital signal processing, specifically handling varying signal-to-noise ratios in acoustic environments.
@@ -12,10 +12,7 @@ This project focuses on the practical application of digital signal processing, 
 * **Data Persistence:** Automatically logs successful transcription payloads to a local `.txt` file for batch review.
 
 ## Quick Start
+
 **1. Install the required dependency:**
-`pip install SpeechRecognition`
-
-**2. Run the pipeline:**
-`python speechToText.py`
-
-*When prompted, enter the name of your `.wav` file. The system will output the API transcription to the console and log it persistently in `transcriptions.txt`.*
+```bash
+pip install SpeechRecognition
