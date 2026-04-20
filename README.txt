@@ -16,3 +16,9 @@ This project focuses on the practical application of digital signal processing, 
 **1. Install the required dependency:**
 ```bash
 pip install SpeechRecognition
+
+2. Run the pipeline:
+
+```bash
+python speechToText.py
+When prompted, enter the name of your .wav file. The system will output the API transcription to the console and log it persistently in transcriptions.txt.
